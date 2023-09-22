@@ -52,10 +52,7 @@ while(have_posts()){
       <?php } ?>
 
       <div class="generic-content">
-        <form method="get" action="search?s=">
-            <input type="search">
-            <input type="submit" value="Search">
-        </form>
+        <?php echo get_search_form(); ?>
       </div>
     </div>
     
